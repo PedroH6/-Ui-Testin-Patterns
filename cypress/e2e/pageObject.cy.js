@@ -16,6 +16,6 @@ describe('Teste de autenticação', () => {
     homePage.openMenu('Account')
     loginPage.login(email, password)
     homePage.openMenu('Account')
-    profilePage.customeMenu().should('contain.text', 'EBAC Cliente')
+    profilePage.customeName().should('contain.text', 'EBAC Cliente')
   })
 })
