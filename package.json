@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+    "start": "npx cypress run"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "cypress": "^15.2.0"
+    "cypress": "^15.2.0",
+    "cypress-html-reporter": "^11.0.0",
+    "puppeteer": "^24.22.0"
   }
 }

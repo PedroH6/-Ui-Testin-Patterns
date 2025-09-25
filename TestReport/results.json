@@ -1,0 +1,331 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "136.0.7103.149",
+  "config": {
+    "baseUrl": "http://lojaebac.ebaconline.art.br/",
+    "projectRoot": "C:\\Users\\pro\\Ui-Testin-Patterns",
+    "projectName": "Ui-Testin-Patterns",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultBrowser": null,
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\Users\\pro\\Ui-Testin-Patterns\\cypress\\downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "injectDocumentDomain": false,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\Users\\pro\\Ui-Testin-Patterns",
+    "fixturesFolder": "C:\\Users\\pro\\Ui-Testin-Patterns\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "justInTimeCompile": true,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 62660,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "22.16.0",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\Users\\pro\\Ui-Testin-Patterns\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\Users\\pro\\Ui-Testin-Patterns\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\Users\\pro\\Ui-Testin-Patterns\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "140",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "140.0.7339.207"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "140",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "140.0.3485.81"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 136,
+        "name": "electron",
+        "path": "",
+        "version": "136.0.7103.149"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\pro\\AppData\\Local\\Cypress\\Cache\\15.2.0\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "15.2.0",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "15.2.0",
+  "endedTestsAt": "2025-09-25T20:14:14.239Z",
+  "osName": "win32",
+  "osVersion": "Microsoft Windows 10 Pro - 10.0.19045",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 0,
+        "pending": 0,
+        "failures": 1,
+        "start": "2025-09-25T20:13:36.901Z",
+        "end": "2025-09-25T20:13:46.900Z",
+        "duration": 9999
+      },
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\Users\\pro\\Ui-Testin-Patterns\\cypress\\screenshots\\appActions.cy.js\\Teste do carrinho -- Deve entrar como usuário e adicionar um produto ao carrinho (failed).png",
+          "takenAt": "2025-09-25T20:13:46.378Z",
+          "width": 1280
+        }
+      ],
+      "spec": {
+        "absolute": "C:/Users/pro/Ui-Testin-Patterns/cypress/e2e/appActions.cy.js",
+        "fileExtension": ".js",
+        "fileName": "appActions",
+        "name": "appActions.cy.js",
+        "relative": "cypress\\e2e\\appActions.cy.js"
+      },
+      "stats": {
+        "duration": 10000,
+        "endedAt": "2025-09-25T20:13:46.893Z",
+        "failures": 1,
+        "passes": 0,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-09-25T20:13:36.893Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"selectAddressOrContinueToPayment\"]`, but never found it.\n    at _get_finished (webpack://ui-testin-patterns/./cypress/support/pages/product/cart.page.js:4:31)\n    at _classPrivateGetter (http://lojaebac.ebaconline.art.br/__cypress/tests?p=cypress\\support\\e2e.js:192:48)\n    at cartPage.addProductToCart (webpack://ui-testin-patterns/./cypress/support/pages/product/cart.page.js:9:8)\n    at eval (webpack://ui-testin-patterns/./cypress/support/commands.js:42:17)\nat Array.forEach (<anonymous>)\n    at Context.eval (webpack://ui-testin-patterns/./cypress/support/commands.js:37:17)\n    at wrapped (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:141525:43)",
+          "duration": 9946,
+          "state": "failed",
+          "title": [
+            "Teste do carrinho",
+            "Deve entrar como usuário e adicionar um produto ao carrinho"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 3,
+        "passes": 0,
+        "pending": 0,
+        "failures": 3,
+        "start": "2025-09-25T20:13:49.091Z",
+        "end": "2025-09-25T20:14:07.143Z",
+        "duration": 18052
+      },
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\Users\\pro\\Ui-Testin-Patterns\\cypress\\screenshots\\intercept.cy.js\\Teste de adicionar, remover e atualizar item no carrinho -- Deve adicionar um item no carrinho (failed).png",
+          "takenAt": "2025-09-25T20:13:55.880Z",
+          "width": 1280
+        },
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\Users\\pro\\Ui-Testin-Patterns\\cypress\\screenshots\\intercept.cy.js\\Teste de adicionar, remover e atualizar item no carrinho -- Deve atualizar o item no carrinho (failed).png",
+          "takenAt": "2025-09-25T20:14:01.529Z",
+          "width": 1280
+        },
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\Users\\pro\\Ui-Testin-Patterns\\cypress\\screenshots\\intercept.cy.js\\Teste de adicionar, remover e atualizar item no carrinho -- Deve remover o item no carrinho (failed).png",
+          "takenAt": "2025-09-25T20:14:06.956Z",
+          "width": 1280
+        }
+      ],
+      "spec": {
+        "absolute": "C:/Users/pro/Ui-Testin-Patterns/cypress/e2e/intercept.cy.js",
+        "fileExtension": ".js",
+        "fileName": "intercept",
+        "name": "intercept.cy.js",
+        "relative": "cypress\\e2e\\intercept.cy.js"
+      },
+      "stats": {
+        "duration": 18051,
+        "endedAt": "2025-09-25T20:14:07.134Z",
+        "failures": 3,
+        "passes": 0,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-09-25T20:13:49.083Z",
+        "suites": 1,
+        "tests": 3
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"itemsQty\"]`, but never found it.\n    at Context.eval (webpack://ui-testin-patterns/./cypress/e2e/intercept.cy.js:18:39)",
+          "duration": 7003,
+          "state": "failed",
+          "title": [
+            "Teste de adicionar, remover e atualizar item no carrinho",
+            "Deve adicionar um item no carrinho"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"addItem\"]`, but never found it.\n    at _get_update (webpack://ui-testin-patterns/./cypress/support/pages/product/product.page.js:6:29)\n    at _classPrivateGetter (http://lojaebac.ebaconline.art.br/__cypress/tests?p=cypress\\e2e\\intercept.cy.js:37:48)\n    at productPage.updateProductToCart (webpack://ui-testin-patterns/./cypress/support/pages/product/product.page.js:14:8)\n    at Context.eval (webpack://ui-testin-patterns/./cypress/e2e/intercept.cy.js:25:16)",
+          "duration": 5532,
+          "state": "failed",
+          "title": [
+            "Teste de adicionar, remover e atualizar item no carrinho",
+            "Deve atualizar o item no carrinho"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"remove\"]`, but never found it.\n    at _get_remove (webpack://ui-testin-patterns/./cypress/support/pages/product/product.page.js:7:29)\n    at _classPrivateGetter (http://lojaebac.ebaconline.art.br/__cypress/tests?p=cypress\\e2e\\intercept.cy.js:37:48)\n    at productPage.removeProductToCart (webpack://ui-testin-patterns/./cypress/support/pages/product/product.page.js:17:8)\n    at Context.eval (webpack://ui-testin-patterns/./cypress/e2e/intercept.cy.js:33:16)",
+          "duration": 5394,
+          "state": "failed",
+          "title": [
+            "Teste de adicionar, remover e atualizar item no carrinho",
+            "Deve remover o item no carrinho"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2025-09-25T20:14:09.229Z",
+        "end": "2025-09-25T20:14:14.242Z",
+        "duration": 5013
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/Users/pro/Ui-Testin-Patterns/cypress/e2e/pageObject.cy.js",
+        "fileExtension": ".js",
+        "fileName": "pageObject",
+        "name": "pageObject.cy.js",
+        "relative": "cypress\\e2e\\pageObject.cy.js"
+      },
+      "stats": {
+        "duration": 5018,
+        "endedAt": "2025-09-25T20:14:14.239Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-09-25T20:14:09.221Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 5006,
+          "state": "passed",
+          "title": [
+            "Teste de autenticação",
+            "Deve fazer login com sucesso -  forma dinâmica"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2025-09-25T20:13:36.893Z",
+  "totalDuration": 33069,
+  "totalFailed": 4,
+  "totalPassed": 1,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 3,
+  "totalTests": 5
+}
