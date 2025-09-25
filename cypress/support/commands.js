@@ -24,11 +24,11 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-const { homePage } = require("./pages/home.page");
-import { browsePage } from "./pages/browse.page";
-import cartPage from "./pages/cart.page";
-import loginPage from "./pages/login.page";
-import productPage from "./pages/product.page";
+const { homePage } = require("./pages/home/home.page");
+import { browsePage } from "./pages/home/browse.page";
+import cartPage from "./pages/product/cart.page";
+import loginPage from "./pages/login/login.page";
+import productPage from "./pages/product/product.page";
 
 Cypress.Commands.add('login', (email, password) => { 
     cy.setCookie('ebacStoreVersion', 'v2', { domain: 'lojaebac.ebaconline.art.br' })

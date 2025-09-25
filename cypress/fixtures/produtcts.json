@@ -1,0 +1,84 @@
+{
+    "success": true,
+    "products": [
+        {
+            "_id": "68d2c69b50940020c8abab2b",
+            "categories": [
+                {
+                    "_id": "68d1a40850940020c8aba9c1",
+                    "name": "Glasses"
+                }
+            ],
+            "photos": [
+                "false"
+            ],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "test-prod-$(date +%s)",
+            "price": 123,
+            "quantity": 5,
+            "description": "test description",
+            "popular": false,
+            "location": "test loc",
+            "specialPrice": 100,
+            "createdAt": "2025-09-23T16:11:07.262Z",
+            "updatedAt": "2025-09-23T16:11:07.262Z",
+            "__v": 0
+        },
+        {
+            "_id": "68d0ceb150940020c8aba2b4",
+            "name": "Novo produto37",
+            "categories": [],
+            "price": 100,
+            "photos": [],
+            "quantity": 2,
+            "visible": true,
+            "additionalDetails": [],
+            "createdAt": "2025-09-22T04:21:05.432Z",
+            "updatedAt": "2025-09-22T04:21:05.432Z",
+            "__v": 0
+        },
+        {
+            "_id": "68d0ceac50940020c8aba292",
+            "categories": [],
+            "photos": [],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "Computer",
+            "price": 350,
+            "quantity": 1,
+            "specialPrice": 350,
+            "createdAt": "2025-09-22T04:21:00.591Z",
+            "updatedAt": "2025-09-22T04:21:00.591Z",
+            "__v": 0
+        },
+        {
+            "_id": "68d0cea550940020c8aba25f",
+            "categories": [],
+            "photos": [],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "Table",
+            "price": 389.05,
+            "quantity": 1,
+            "specialPrice": 389.05,
+            "createdAt": "2025-09-22T04:20:53.786Z",
+            "updatedAt": "2025-09-22T04:20:53.786Z",
+            "__v": 0
+        },
+        {
+            "_id": "68cb5f2250940020c8ab9399",
+            "categories": [],
+            "photos": [],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "Car",
+            "price": 350,
+            "quantity": 1,
+            "specialPrice": 350,
+            "createdAt": "2025-09-18T01:23:46.493Z",
+            "updatedAt": "2025-09-18T01:23:46.493Z",
+            "__v": 0
+        }
+    ]
+}
