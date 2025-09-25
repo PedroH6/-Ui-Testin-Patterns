@@ -11,6 +11,7 @@ class loginPage  {
         this.#password.type(password)
         this.#btnLogin.click()
     }
+    
 }
 
 

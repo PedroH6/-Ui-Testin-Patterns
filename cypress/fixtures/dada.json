@@ -1,4 +1,8 @@
 {
-  "email": "cliente@ebac.art.br",
-  "password": "GD*peToHNJ1#c$sgk08EaYJQ"
+  "usuario": [
+    {
+      "email": "cliente@ebac.art.br",
+      "password": "GD*peToHNJ1#c$sgk08EaYJQ"
+    }
+  ]
 }

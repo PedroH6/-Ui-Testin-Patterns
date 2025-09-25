@@ -3,7 +3,8 @@
 import { homePage } from "../support/pages/home/home.page";
 import loginPage from "../support/pages/login/login.page";
 import { profilePage } from "../support/pages/profile/profile.page";
-const { email, password } = require('../fixtures/dada.json');
+const dada = require("../fixtures/dada.json");
+const { email, password } = require("../fixtures/dada.json");
 
 describe("Teste de autenticação", () => {
   beforeEach(() => {
@@ -13,10 +14,19 @@ describe("Teste de autenticação", () => {
     cy.visit("/");
   });
 
-  it("Deve fazer login com sucesso", () => {
-    homePage.openMenu("Account");
-    loginPage.login(email, password);
-    homePage.openMenu("Account");
-    profilePage.customeName().should("contain.text", "EBAC Cliente");
+  // it("Deve fazer login com sucesso", () => {
+  //   homePage.openMenu("Account");
+  //   loginPage.login(email, password);
+  //   homePage.openMenu("Account");
+  //   profilePage.customeName().should("contain.text", "EBAC Cliente");
+  // });
+
+  dada.usuario.forEach((user) => {
+    it("Deve fazer login com sucesso -  forma dinâmica", () => {
+      homePage.openMenu("Account");
+      loginPage.login(user.email, user.password);
+      homePage.openMenu("Account");
+      profilePage.customeName().should("contain.text", "EBAC Cliente");
+    });
   });
 });
